@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Trained models (large files - don't push to GitHub)
+models/saved/bilstm/*.pt
+models/saved/bilstm/*.json
+models/saved/bert/*.safetensors
+models/saved/bert/checkpoints/
+models/saved/bert/*.json
+models/saved/bert/*.txt
+
+# Secrets
+.env
+
+# Data logs (personal/session data)
+data/interaction_logs.csv
+
+# OS/editor
+.DS_Store
+.vscode/
